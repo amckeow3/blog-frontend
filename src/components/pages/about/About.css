@@ -1,0 +1,27 @@
+.about_sec {
+    min-height: 100vh;
+    background-color: #fefcf6;
+}
+
+picture {
+    max-width: 40%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    margin-left: -40px;
+    padding-top: 30px;
+  }
+
+  img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    margin-top: 5px;
+  }
+
+  picture .lilo_pic {
+    transform: rotate(270deg);
+  }

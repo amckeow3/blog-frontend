@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Six+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
+
+@font-face {
+    font-family: "glitter";
+    src: url("../../../fonts/i-love-glitter.ttf");
+    font-display: swap;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "red velvet";
+    src: url("../../../fonts/RedVelvet-Regular.otf");
+    font-display: swap;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "klender";
+    src: url("../../../fonts/klender.otf");
+    font-display: swap;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "vodan";
+    src: url("../../../fonts/vodan.ttf");
+    font-display: swap;
+    font-style: normal;
+  }
+
+.header_sec {
+    min-height: 20vh;
+    height: fit-content;
+    background-color: #fefcf6;
+    width: 100%;
+    position: relative;
+    align-items: center;
+    -webkit-transition: all .5s ease-in;
+    -o-transition: all .5s ease-in;
+    transition: all .5s ease-in;
+    margin: 0;
+}
+.header_sec .header_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    line-height: 1em;
+}
+
+.header_sec .header_text .header1 {
+    font-family: glitter;
+    font-size: calc(1vw + 3vh);
+    color: #fe69b5;
+    position: absolute;
+    top: auto; 
+    bottom: auto;
+    
+}
+
+.header_sec .header_text .header2 {
+    font-size: calc(3vw + 3vh);
+    /*font-family: 'Emilys Candy', cursive;*/
+    font-family: klender;
+    position: absolute;
+    top: auto; 
+    bottom: auto;
+    margin-top: 1.5em;
+}
