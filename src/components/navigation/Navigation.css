@@ -1,9 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import '../../styles.css';
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-wrapper {
+    top: 0;
+    right: 0;
+    left: 0;
+    max-width: 100%;
+    position: fixed;
+    height: 100%;
+    z-index: 20;
+}
 
 .navbar {
-    /*border-top: 3px solid black;*/
-    border-bottom: 3px solid #fe69b5;
-    background-color: #fefcf6;
+    border-bottom: 3px solid black;
+    background-color: var(--pink);
+    width: 100vw;
+}
+
+.navbar-wrapper .navbar .container-fluid {
+    display: inline-flex;
 }
 
 .nav-link li {
@@ -26,3 +45,41 @@
 .nav-link li .nav-link:focus {
     color: #fe69b5;
 }
+
+ul li {
+    padding: 0 5px;
+}
+/*
+.navbar-wrapper .navbar .navbar-brand .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-left: 0;
+}
+.navbar-wrapper .navbar .navbar-brand .container .brand_text {
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-left: 0;
+}
+
+.navbar-wrapper .navbar .navbar-brand .container .brand_text .brand1 {
+    font-family: glitter;
+    font-size: calc(1vw + 3vh);
+    color: black;
+    position: fixed;
+    top: 25px; 
+    bottom: auto;
+}
+
+.navbar-wrapper .navbar .navbar-brand .container .brand_text .brand2 {
+    font-size: calc(3vw + 3vh);
+    font-family: klender;
+    position: fixed;
+    top: auto; 
+    bottom: auto;
+    margin-top: 1.7em;
+    color: azure;
+}
+*/

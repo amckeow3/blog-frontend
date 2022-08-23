@@ -1,4 +1,6 @@
+@import '../../../styles.css';
+
 .home_sec {
     min-height: 100vh;
-    background-color: #fefcf6;
+    background-color: var(--blue-purple);
 }

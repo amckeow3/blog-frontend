@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Six+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
+
+@font-face {
+  font-family: "glitter";
+  src: url("./fonts/i-love-glitter.ttf");
+  font-display: swap;
+  font-style: normal;
+}
+  
+@font-face {
+  font-family: "red velvet";
+  src: url("./fonts/RedVelvet-Regular.otf");
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "klender";
+  src: url("./fonts/klender.otf");
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "vodan";
+  src: url("./fonts/vodan.ttf");
+  font-display: swap;
+  font-style: normal;
+}
+
+:root {
+  --blue-purple: #838ffc;
+  --off-white: #fefcf6;
+  --dark-pink: #fe69b5;
+  --hot-pink: #fa147b;
+  --pink: #fa6ee7;
+}
